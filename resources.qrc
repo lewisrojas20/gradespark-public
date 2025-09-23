@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file>assets/chevron-down.svg</file>
+    <file>assets/chevron-down-dark.svg</file>
+</qresource>
+</RCC>
