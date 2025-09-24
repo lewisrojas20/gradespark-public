@@ -31,7 +31,7 @@ This is the **free, offline, open-source version** of GradeSpark - an AI-powered
 
 ## 🎯 Perfect For
 
-- **Teachers** curious about how AI grading can help them save time and revolutionize their 
+- **Teachers** curious about how AI grading can help them save time and revolutionize their way of grading
 - **Administrators** evaluating grading solutions for their schools and monitoring datasets to analyze results per grade/per subject
 - **Developers** interested in educational technology
 - **Researchers** studying AI applications in education
