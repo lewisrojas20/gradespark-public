@@ -90,7 +90,7 @@ python3 gradespark_gui.py
 - Assignments: 2 per subject per grade
 - Students: 15 per class (with realistic non-submissions)
 
-🔒 Premium Features (Lead Capture)
+### 🔒 Premium Features (Lead Capture)
 When you click on Classroom Mode or Live Grading, you'll see a lead capture form. Submit your info to be among the first teachers to get early access to:
 
 - Google Classroom Integration: Pull assignments directly from Google Classroom and select which classes and assignments you want to grade
@@ -171,4 +171,4 @@ Built with:
 
 Note: This is the Community Edition designed to let you experience GradeSpark's interface and workflow. For actual AI grading and classroom integration, please consider the full version.
 
-**Made with ❤️ for educators!
+**Made with ❤️ for educators!**
