@@ -9,7 +9,7 @@
 
 ## 📢 What is GradeSpark Community Edition?
 
-This is the **free, open-source version** of GradeSpark - an AI-powered grading assistant that gives teachers their time back. While the full version includes Google Classroom integration and live AI grading, this Community Edition lets you experience the complete workflow with Demo Mode.
+This is the **free, offline, open-source version** of GradeSpark - an AI-powered grading assistant that gives teachers their time back. While the full version includes Google Classroom integration and live AI grading, this Community Edition lets you experience the complete workflow with Demo Mode.
 
 ### Community Edition vs Full Version
 
@@ -26,8 +26,8 @@ This is the **free, open-source version** of GradeSpark - an AI-powered grading 
 
 ## 🎯 Perfect For
 
-- **Teachers** curious about AI grading but not ready to commit
-- **Administrators** evaluating grading solutions for their schools
+- **Teachers** curious about how AI grading can help them save time
+- **Administrators** evaluating grading solutions for their schools and monitoring proficiency
 - **Developers** interested in educational technology
 - **Researchers** studying AI applications in education
 
@@ -71,10 +71,9 @@ Option 2: Download Packaged App (Coming Soon)
 🔒 Premium Features (Lead Capture)
 When you click on Classroom Mode or Live Grading, you'll see a lead capture form. Submit your info to be among the first teachers to get early access to:
 
-Google Classroom Integration - Pull assignments directly
-Live AI Grading - Grade your actual student work
-Document Processing - Support for PDF, DOCX, images
-Custom Rubrics - Tailor feedback to your standards
+- Google Classroom Integration: Pull assignments directly from Google Classroom and select which classes and assignments you want to grade
+- Live AI Grading: Grade any type of student work whether a quiz or an essay in any format (PDF, DOCX, PPT, Images, etc)
+- Custom Rubrics: Tailor feedback to your standards with a personalized tone and/or custom-made rubric to match any curriculum.
 
 ## 🖼️ Screenshots
 
@@ -199,7 +198,7 @@ We welcome contributions! Feel free to:
 ## 💬 Get the Full Version
 Interested in the full version with AI grading and Google Classroom?
 - For Teachers: Email lewisrojas20@gmail.com for early access
-- For Schools: Request a demo for your district
+- For Schools: Email lewisrojas20@gmail.com and request a demo for your district
 
 ## 📄 License
 This Community Edition is released under MIT License. Use it, modify it, share it!
@@ -210,8 +209,6 @@ Built with:
 
 - PyQt5 - Cross-platform GUI framework
 - pandas - Data manipulation
-- Love for teachers who deserve their evenings back
-
 
 Note: This is the Community Edition designed to let you experience GradeSpark's interface and workflow. For actual AI grading and classroom integration, please consider the full version.
 
