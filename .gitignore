@@ -20,6 +20,7 @@ env/
 # Build artifacts (PyInstaller, etc.)
 build/
 dist/
+.spec
 *.spec
 
 # Application binaries
@@ -30,3 +31,8 @@ dist/
 *.log
 settings.json
 token.json
+.DS_Store
+
+# Raw media sources (not needed by end users)
+docs/gifs/src/
+docs/screenshots/

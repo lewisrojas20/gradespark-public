@@ -6,6 +6,8 @@
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Status-Community%20Edition-green.svg)
+[![Release](https://img.shields.io/github/v/release/lewisrojas20/gradespark-public?sort=semver)](https://github.com/lewisrojas20/gradespark-public/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)
 
 ## 📢 What is GradeSpark Community Edition?
 
@@ -19,36 +21,56 @@ This is the **free, offline, open-source version** of GradeSpark - an AI-powered
 | UI/UX (all 6 tabs) | ✅ Full Interface | ✅ Full Interface |
 | Dark/Light themes | ✅ Included | ✅ Included |
 | Results export (CSV) | ✅ Working | ✅ Working |
+| Privacy | ✅ 100% Offline | ⚠️ Cloud features (opt-in) |
 | Google Classroom | 🔒 Lead Capture Form | ✅ Full Integration |
-| Live AI Grading | 🔒 Lead Capture Form | ✅ OpenAI Powered |
-| Document Processing | ❌ Not Available | ✅ PDF/DOCX/Images |
+| Live AI Grading | 🔒 Lead Capture Form | ✅ AI Powered |
+| Document Processing | ❌ Not Available | ✅ PDF/PPT/DOCX/Images |
 | Custom Rubrics | ❌ Not Available | ✅ Fully Customizable |
+| Custom Feedback Tone | ❌ Not Available | ✅ Fully Customizable |
+
 
 ## 🎯 Perfect For
 
-- **Teachers** curious about how AI grading can help them save time
-- **Administrators** evaluating grading solutions for their schools and monitoring proficiency
+- **Teachers** curious about how AI grading can help them save time and revolutionize their 
+- **Administrators** evaluating grading solutions for their schools and monitoring datasets to analyze results per grade/per subject
 - **Developers** interested in educational technology
 - **Researchers** studying AI applications in education
 
-## 🚀 Quick Start
+## Option 1: Download ⬇️ 
 
-### Option 1: Run from Source (Available Now)
+**macOS (Ready)** 🍎
+1. [Download GradeSpark Community Edition for macOS](https://github.com/lewisrojas20/gradespark-public/releases/download/v1.0.0/Gradespark-Community-Edition-v1.0.0-macOS-arm64.zip)
+2. Unzip and drag **GradeSpark.app** to **Applications**.
+3. First launch on macOS:
+   - If you see a security prompt (unverified developer), **Right-click → Open** and confirm. 
+
+Note: We’ll add code signing/notarization in a future build for a smoother first run.
+
+**Windows (Almost Ready)** 🪟
+- Installer will be added to Releases after polishing & packaging is complete.
+
+## Verify Download (SHA-256)
+`06c92cd4eb7180a8098b7ab96bce9ba0dbe929197076c6222dfd6e025ff471e2`
+
+## Option 2: Run from Source (macOS/Windows)
 ```bash
 # Clone the repository
 git clone https://github.com/lewisrojas20/gradespark-public.git
 cd gradespark-public
 
-# Install dependencies
-pip install -r requirements.txt
+# Activate virtual environment
+# macOS: 
+python3 -m venv .venv && source .venv/bin/activate   
+
+# Windows: 
+.venv\Scripts\activate
+
+# Install dependencies (macOS - pip3 | Windows: pip)
+pip3 install -r requirements.txt
 
 # Run the application
 python3 gradespark_gui.py
-Option 2: Download Packaged App (Coming Soon)
 ```
-🍎 macOS App - Currently packaging, will be available as .app in next commit
-🪟 Windows Installer - In development, coming after Mac release
-### Note: Until packaged versions are ready, please use Option 1 to run from terminal
 
 ## ✨ What You Can Do
 
@@ -59,7 +81,7 @@ Option 2: Download Packaged App (Coming Soon)
 - See how AI feedback looks (simulated)
 - Export results to CSV
 - Switch between light/dark themes
-- Understand the time-saving potential
+- Experience the time-saving potential
 
 ### Sample Data Included
 
@@ -72,88 +94,24 @@ Option 2: Download Packaged App (Coming Soon)
 When you click on Classroom Mode or Live Grading, you'll see a lead capture form. Submit your info to be among the first teachers to get early access to:
 
 - Google Classroom Integration: Pull assignments directly from Google Classroom and select which classes and assignments you want to grade
-- Live AI Grading: Grade any type of student work whether a quiz or an essay in any format (PDF, DOCX, PPT, Images, etc)
-- Custom Rubrics: Tailor feedback to your standards with a personalized tone and/or custom-made rubric to match any curriculum.
+- Live AI Grading: Grade ANY type of student work, anything from a quiz to an essay in any format (PDF, DOCX, PPT, Images, etc.)
+- Custom Rubrics:  Create custom-made rubrics to match any curriculum you are teaching
+- Custom Feedback Tone: Tailor feedback to your standards with a personalized tone that matches your style!
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots (GIF)
 
-### Light Mode
-<table>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/home.png" width="400px" alt="Home Tab"/><br />
-      <sub><b>Welcome Screen</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/demo.png" width="400px" alt="Demo Mode"/><br />
-      <sub><b>Demo Mode</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/live.png" width="400px" alt="Live Grading"/><br />
-      <sub><b>Live Grading</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/classroom.png" width="400px" alt="Classroom Mode"/><br />
-      <sub><b>Classroom Integration</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/results.png" width="400px" alt="Results Viewer"/><br />
-      <sub><b>Grading Results</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/settings.png" width="400px" alt="Settings"/><br />
-      <sub><b>Settings Panel</b></sub>
-    </td>
-  </tr>
-</table>
+![GradeSpark – Light Mode](docs/gifs/gradespark_light.gif)
+![GradeSpark – Dark Mode](docs/gifs/gradespark_dark.gif)
 
-### Dark Mode
-<table>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/home_dark.png" width="400px" alt="Home Tab Dark"/><br />
-      <sub><b>Welcome Screen (Dark)</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/demo_dark.png" width="400px" alt="Demo Mode Dark"/><br />
-      <sub><b>Demo Mode (Dark)</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/live_dark.png" width="400px" alt="Live Grading Dark"/><br />
-      <sub><b>Live Grading (Dark)</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/classroom_dark.png" width="400px" alt="Classroom Mode Dark"/><br />
-      <sub><b>Classroom Integration (Dark)</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/results_dark.png" width="400px" alt="Results Viewer Dark"/><br />
-      <sub><b>Grading Results (Dark)</b></sub>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/settings_dark.png" width="400px" alt="Settings Dark"/><br />
-      <sub><b>Settings Panel (Dark)</b></sub>
-    </td>
-  </tr>
-</table>
 
 ## 🛠️ Technical Details
-```bash
-Requirements
 
-Python 3.9+
-PyQt5
-pandas
-100MB disk space
-```
+**Requirements**
+- macOS 12+ (Monterey) or Windows 10+
+- Python 3.9+ (only needed if running from source)
+- PyQt5, pandas (installed via `requirements.txt`)
+- ~100MB disk space
+
 
 ## Project Structure
 ```bash
@@ -172,17 +130,15 @@ gradespark-public/
 ```
 
 ## 🗺️ Roadmap
-### Immediate (This Week)
 
- - Community Edition release
- - macOS .app package
+### ✅ Now
+ - Community Edition release (v1.0.0) 
+ - macOS app package (.zip) 
+
+
+### 🚧 In Progress
  - Windows .exe installer
  - Installation video tutorial
-
-### Next Steps
-
- - Linux AppImage
- - Docker container option
  - More demo datasets
  - Localization support
 
@@ -195,10 +151,13 @@ We welcome contributions! Feel free to:
 - Add more demo datasets
 - Help with packaging
 
-## 💬 Get the Full Version
-Interested in the full version with AI grading and Google Classroom?
-- For Teachers: Email lewisrojas20@gmail.com for early access
-- For Schools: Email lewisrojas20@gmail.com and request a demo for your district
+> Dev quickstart: clone, create a virtual env, `pip install -r requirements.txt`, run `python3 gradespark_gui.py`.
+
+## 🔒 Privacy
+GradeSpark Community Edition can run without internet. All data stays on your device. Internet is required to submit information for early access. We use any form submissions to invite early users and keep you updated as features roll out. No telemetry.
+
+## 📬 Support / Contact
+Questions or feedback? Open a [GitHub Issue](../../issues) or email **lewisrojas20@gmail.com**.
 
 ## 📄 License
 This Community Edition is released under MIT License. Use it, modify it, share it!
@@ -212,4 +171,4 @@ Built with:
 
 Note: This is the Community Edition designed to let you experience GradeSpark's interface and workflow. For actual AI grading and classroom integration, please consider the full version.
 
-Made with ❤️ for educators!
+**Made with ❤️ for educators!
