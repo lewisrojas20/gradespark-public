@@ -42,7 +42,7 @@ This is the **free, offline, open-source version** of GradeSpark - an AI-powered
 1. [Download GradeSpark Community Edition for macOS](https://github.com/lewisrojas20/gradespark-public/releases/download/v1.0.0/Gradespark-Community-Edition-v1.0.0-macOS-arm64.zip)
 2. Unzip and drag **GradeSpark.app** to **Applications**.
 3. First launch on macOS:
-   - If you see a security prompt (unverified developer), **Right-click → Open** and confirm. 
+   - If you see a security prompt (unverified developer/Not Opened), **Right-click → Open** and confirm. If that does not work go into your macOS **Settings → Privacy & Security → scroll down to button: Open Anyway → click: Open Anyway (again)** 
 
 Note: We’ll add code signing/notarization in a future build for a smoother first run.
 
