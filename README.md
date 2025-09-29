@@ -46,11 +46,15 @@ This is the **free, offline, open-source version** of GradeSpark - an AI-powered
 
 Note: We’ll add code signing/notarization in a future build for a smoother first run.
 
-**Windows (Almost Ready)** 🪟
-- Installer will be added to Releases after polishing & packaging is complete.
+**Windows (Ready)** 🪟
+1. [Download GradeSpark Community Edition for Windows](https://github.com/lewisrojas20/gradespark-public/releases/download/v1.0.0/Gradespark-Community-Edition-v1.0.0-Windows.exe)
+2. Double-click on the .exe file to run.
+3. First launch on Windows:
+   - Windows SmartScreen may appear → click More info → Run anyway (expected for unsigned apps).
 
 ## Verify Download (SHA-256)
-`06c92cd4eb7180a8098b7ab96bce9ba0dbe929197076c6222dfd6e025ff471e2`
+macOS: `06c92cd4eb7180a8098b7ab96bce9ba0dbe929197076c6222dfd6e025ff471e2`
+Windows: `F55344446F8F295E720F5FE9CCA8C377D08E116F1038069B126C54C37ECC9557`
 
 ## Option 2: Run from Source (macOS/Windows)
 ```bash
@@ -100,9 +104,10 @@ When you click on Classroom Mode or Live Grading, you'll see a lead capture form
 
 ## 🖼️ Screenshots (GIF)
 
-![GradeSpark – Light Mode](docs/gifs/gradespark_light.gif)
-![GradeSpark – Dark Mode](docs/gifs/gradespark_dark.gif)
-
+![GradeSpark – Light Mode (macOS)](docs/gifs/gradespark_light.gif)
+![GradeSpark – Dark Mode (macOS)](docs/gifs/gradespark_dark.gif)
+![GradeSpark – Windows Light](docs/gifs/gradespark_windows_light.gif)
+![GradeSpark – Windows Dark](docs/gifs/gradespark_windows_dark.gif)
 
 ## 🛠️ Technical Details
 
@@ -134,10 +139,10 @@ gradespark-public/
 ### ✅ Now
  - Community Edition release (v1.0.0) 
  - macOS app package (.zip) 
+ - Windows executable (.exe) 
 
 
 ### 🚧 In Progress
- - Windows .exe installer
  - Installation video tutorial
  - More demo datasets
  - Localization support
