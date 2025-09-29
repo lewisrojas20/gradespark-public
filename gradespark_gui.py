@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import (
     Qt, QTimer, pyqtSignal, QUrl, QObject, QThread, QStandardPaths, QByteArray
 )
-from PyQt5.QtGui import QColor, QDesktopServices, QBrush
+from PyQt5.QtGui import QBrush, QColor, QDesktopServices, QIcon
 
 # For lead capture
 import urllib.request
@@ -1315,6 +1315,13 @@ def main():
     
     # Create and show main window
     window = GradeSparkGUI()
+
+    icon_path = resource_path("assets/gradespark.ico")
+    if os.path.exists(icon_path):
+        icon = QIcon(icon_path)
+        app.setWindowIcon(icon)
+        window.setWindowIcon(icon)
+
     window.show()
     
     sys.exit(app.exec_())
